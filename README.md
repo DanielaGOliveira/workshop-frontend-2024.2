@@ -15,4 +15,4 @@ Lançado em junho de 2020 pela RIOT, o jogo vem ganhando cada vez mais reconheci
 - CSS
 - JavaScript
 
-<h2><a href="https://workshop-frontend-2024-2-gib7qbxie-danielas-projects-c2a0d0ed.vercel.app/" style="color: white">Visite o site!</a></h2>
+<h2><a href="https://workshop-frontend-2024-2-gib7qbxie-danielas-projects-c2a0d0ed.vercel.app/">Visite o site!</a></h2>
