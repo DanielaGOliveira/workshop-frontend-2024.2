@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    background-color: black;
+}
+
+ul{
+    list-style-type: none;
+    background-image: linear-gradient(to right, black, red, black);
+    padding: 8px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    
+}
+
+a:hover{
+    background-color: rgba(0, 0, 0, 0.800);
+    color: rgba(255, 255, 255, 0.800);
+    border-radius: 10px;
+}
+
+.alinhar{
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    background-image: url(./images/background-valorant3.jpeg);
+    background-size: cover;
+    padding: 80px 50px;
+    text-align: right;
+    height: 100%;
+}
+
+header input{
+    margin-top: 10px;
+    padding: 8px;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.agent {
+    background: gray;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.agent img {
+    width: 150px;
+    border-radius: 8px;
+}
+
+.agent h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.agent p {
+    font-size: 12px;
+    color: black;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+.agent .role {
+    font-size: 14px;
+    color: rgb(128, 0, 0);
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.agent .description {
+    width: 200px;
+    height: 100px;
+    text-align: center;
+}
+
